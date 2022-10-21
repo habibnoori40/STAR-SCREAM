@@ -11,7 +11,9 @@
     <!-- LINK CSS FILE -->
     <link rel="stylesheet" href="Css/starscream.css">
     <!-- LINK FONT AWESOME FILE -->
-    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- LINK GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,47 +29,47 @@
           <li><a href="#Articles">Articles</a></li>
           <li><a href="#Gallery">Gallery</a></li>
           <li><a href="#Features">Features</a></li>
-          <li><a href="#">Other Links</a>
-            <div class="mega-menu">
-              <div class="image">
-                <img src="Imgs/megamenu.png" alt="">
-              </div>
-              <ul class="links">
-                <li>
-                  <a href="#Testimonials"><span><i class="far fa-comments"></i></span> Testimonials</a>
-                </li>
-                <li>
-                  <a href="#Team"><span><i class="far fa-user"></i></span> Team Members</a>
-                </li>
-                <li>
-                  <a href="#Services"><i class="far fa-building"></i> Services</a>
-                </li>
-                <li>
-                  <a href="#Skills"><i class="far fa-check-circle"></i> Our Skills</a>
-                </li>
-                <li>
-                  <a href="#How-it-works"><i class="far fa-clipboard"></i> How It Works</a>
-                </li>
-              </ul>
-              <ul class="links">
-                <li>
-                  <a href="#Evants"><i class="far fa-calendar-alt"></i> Evants</a>
-                </li>
-                <li>
-                  <a href="#Pricing"><i class="fas fa-server"></i> Pricing Plans</a>
-                </li>
-                <li>
-                  <a href="#Videos"><i class="far fa-play-circle"></i> Top Videos</a>
-                </li>
-                <li>
-                  <a href="#Stats"><i class="far fa-chart-bar"></i> Stats</a>
-                </li>
-                <li>
-                  <a href="#Discount"><i class="fas fa-percent"></i> Request A Discount</a>
-                </li>
-              </ul>
+          <li id="otherLinks"><a href="#menu">Other Links</a></li>
+          <div class="mega-menu">
+            <div class="image">
+              <img src="Imgs/megamenu.png" alt="">
             </div>
-          </li>
+            <ul class="links">
+              <li>
+                <a href="#Testimonials"><span><i class="far fa-comments"></i></span> Testimonials</a>
+              </li>
+              <li>
+                <a href="#Team"><span><i class="far fa-user"></i></span> Team Members</a>
+              </li>
+              <li>
+                <a href="#Services"><i class="far fa-building"></i> Services</a>
+              </li>
+              <li>
+                <a href="#Skills"><i class="far fa-check-circle"></i> Our Skills</a>
+              </li>
+              <li>
+                <a href="#How-it-works"><i class="far fa-clipboard"></i> How It Works</a>
+              </li>
+            </ul>
+            <ul class="links">
+              <li>
+                <a href="#Evants"><i class="far fa-calendar-alt"></i> Evants</a>
+              </li>
+              <li>
+                <a href="#Pricing"><i class="fas fa-server"></i> Pricing Plans</a>
+              </li>
+              <li>
+                <a href="#Videos"><i class="far fa-play-circle"></i> Top Videos</a>
+              </li>
+              <li>
+                <a href="#Stats"><i class="far fa-chart-bar"></i> Stats</a>
+              </li>
+              <li>
+                <a href="#Discount"><i class="fas fa-percent"></i> Request A Discount</a>
+              </li>
+            </ul>
+            <span id="closeBtn" class="closeBtn"><i class="fa-solid fa-xmark "></i></span>
+          </div>
         </ul>
       </div>
     </div>
@@ -300,7 +302,7 @@
         <div class="box">
           <img src="Imgs/avatar-04.png" alt="">
           <div class="info">
-            <h3>Imran Alatlasi</h3>
+            <h3>Noureen Hasan</h3>
             <span>Back End Developer</span>
             <div class="stars-rate">
               <i class="full fas fa-star"></i>
@@ -564,27 +566,27 @@
         <img src="Imgs/screen.jpg" alt="">
         <div class="skills">
           <div class="skill">
-            <h3>HTML <span>90%</span></h3>
+            <h3>HTML <span><span data-goal="90">0</span><span>%</span></span></h3>
             <div class="progress">
-              <span style="Width: 90%;"></span>
+              <span style="Width: 0%;" data-width="90%"></span>
             </div>
           </div>
           <div class="skill">
-            <h3>CSS <span>89%</span></h3>
+            <h3>CSS <span><span data-goal="95">0</span><span>%</span></span></h3>
             <div class="progress">
-              <span style="Width: 89%;"></span>
+              <span style="Width: 0%;" data-width="95%"></span>
             </div>
           </div>
           <div class="skill">
-            <h3>JavaScript <span>70%</span></h3>
+            <h3>JavaScript <span><span data-goal="79">0</span><span>%</span></span></h3>
             <div class="progress">
-              <span style="Width: 70%;"></span>
+              <span style="Width: 0%;" data-width="79%"></span>
             </div>
           </div>
           <div class="skill">
-            <h3>Python <span>77%</span></h3>
+            <h3>Python <span><span data-goal="70">0</span><span>%</span></span></h3>
             <div class="progress">
-              <span style="Width:77%;"></span>
+              <span style="Width: 0%;" data-width="70%"></span>
             </div>
           </div>
         </div>
@@ -638,19 +640,19 @@
         <div class="info">
           <div class="time">
             <div class="box">
-              <span>55</span>
+              <span data-days>55</span>
               <span>Days</span>
             </div>
             <div class="box">
-              <span>12</span>
+              <span data-hours>12</span>
               <span>Hours</span>
             </div>
             <div class="box">
-              <span>56</span>
+              <span data-minutes>56</span>
               <span>Minutes</span>
             </div>
             <div class="box">
-              <span>27</span>
+              <span data-seconds>27</span>
               <span>Seconds</span>
             </div>
           </div>
@@ -775,22 +777,22 @@
       <div class="container">
         <div class="box">
           <i class="far fa-user fa-2x"></i>
-          <span>150</span>
+          <span data-goal="150">0</span>
           <i class="italic">Clients</i>
         </div>
         <div class="box">
           <i class="fas fa-code fa-2x fa-fw"></i>
-          <span>135</span>
+          <span data-goal="135">0</span>
           <i class="italic">Projects</i>
         </div>
         <div class="box">
           <i class="fas fa-globe-asia fa-2x fa-fw"></i>
-          <span>50</span>
+          <span data-goal="50">0</span>
           <i class="italic">Countries</i>
         </div>
         <div class="box">
           <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
-          <span>500</span>
+          <span data-goal="500">0</span>
           <i class="italic">Money</i>
         </div>
       </div>
@@ -881,12 +883,12 @@
           <img src="Imgs/gallery-06.png" alt="Gallery Photos">
         </div>
       </div>
-      <span>Made By Habib Noori <i class="fas fa-smile-beam fa-fw"></i>
-        <code class="note">Note: I made this website just to practice and the owner of the website is (Elzero)</code>
-      </span>
+      <span>Made By Habib Noori <i class="fas fa-smile-beam fa-fw"></i> </span>
     </div>
     <!-- End Footer -->
     <a href="#" class="scroll"><i class="fas fa-arrow-alt-circle-up fa-fw fa-2x"></i></a>
+
+    <script src="./scripts/script.js" type="text/javascript"></script>
   </body>
 
 </html>
