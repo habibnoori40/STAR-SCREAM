@@ -43,7 +43,7 @@ function skillsOffsetTop() {
 }
 
 function statisticsOffsetTop() {
-  if (this.scrollY >= statistics.offsetTop) {
+  if (this.scrollY >= statistics.offsetTop - 100) {
     if (!startStatistics) {
       statisticsSpan.forEach((span) => {
         startCount(span);
