@@ -1,3 +1,3 @@
-Star Scream Project I do It Just For Practice..(to learn only)
+Star Scream Website
 ----------------------------------------
 Website Live Preview -> https://habibnoori40.github.io/Star-Scream/
